@@ -1,1 +1,10 @@
+@function remy($value) {
+  @return ($value / 16px) *1rem;
+}
+
+$body-bg: #0b0b0c;
+$color-font: #fff;
+$color-accent: #0f33ff;
+
+@import '_base.scss';
 @import '_header.scss';
